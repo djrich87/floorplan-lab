@@ -6,27 +6,26 @@ import Bath from './Bath';
 
 function FloorPlan(props) {
   return (
-    <main clasName='grid-container'>
-      This is a Floorplan!
-      <div className='bedRoom' id={'bed1'}>
+    <main className='grid-container'>
+      <div className='bedRoom' id={'bed-1'}>
         <Bedroom bedNum='1' />
       </div>
       <div id="kitchen">
         <Kitchen />
       </div>
-      <div className='bathRoom' id={'bathFull'}>
+      <div className='bath' id={'bath-Full'}>
         <Bath size='Full' />
       </div>
-      <div className='bedRoom' id={'bed2'}>
+      <div className='bedRoom' id={'bed-2'}>
         <Bedroom bedNum='2' />
       </div>
       <div id='livingRoom'>
         <LivingRoom />
       </div>
-      <div className='bathRoom' id={'bathHalf'}>
+      <div className='bath' id={'bath-Half'}>
         <Bath size='Half'/>
       </div>
-      <div className='bedRoom' id={'bed3'}>
+      <div className='bedRoom' id={'bed-3'}>
         <Bedroom bedNum='3' />
       </div>
 
