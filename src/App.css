@@ -1,3 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "Bed1  Bed1  Living   Living  Kitchen"
+  "Bed1  Bed1  Living  Living  Kitchen"
+  "Full  Full  Living  Living  Kitchen"
+  "Bed2  Bed2  Half  Bed3  Bed3"
+  "Bed2  Bed2  Half  Bed3  Bed3";
+  width: 100%;
+  height: 100%;
+}
+
+.bed1 {
+  grid-area: Bed1;
+}
+
+
+
 div {
   border: 1px solid grey;
   margin: 5px;
